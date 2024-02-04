@@ -24,5 +24,7 @@ public class HomePage extends SeleniumTest {
 		driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(10));
 		driver.findElement(By.xpath(onlineProducts)).click();
 	}
+	//Github testing comments
+	
 }
 
